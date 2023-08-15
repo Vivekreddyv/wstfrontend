@@ -1,0 +1,13 @@
+.companyimg{
+    width: 10rem;
+    height: 4rem;
+    object-fit: contain;
+    margin-right: 2.6rem;
+    margin-top: 1rem;
+}
+.company{
+    display: flex;
+}
+.company > div:nth-child(30) img{
+    margin-right: 0;
+}

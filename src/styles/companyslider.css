@@ -1,0 +1,21 @@
+.slider2{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.slider2::-webkit-scrollbar{
+    display: none;    
+
+}
+.slider1{
+    display: flex;
+}
+.sliderbtn{
+    width: 14rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;  
+    font-size: 2.5rem;  
+    padding-top: 0.5rem;
+}

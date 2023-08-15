@@ -1,0 +1,94 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 11vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 1rem;
+    z-index: 1000;
+}
+.navscrolled{
+    display: flex;
+    justify-content: space-between;
+    height: 11vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    background-color: white;
+    margin-right: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logo{
+    color: white;
+    font-size: 3rem;
+    font-style: italic;
+    margin-left: 2rem;
+}
+.logoscrolled{
+    color: #153a54;
+    font-size: 3rem;
+    font-style: italic;
+}
+.nav1{
+    display: flex;
+}
+.login{
+    width: 6rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.loginscrolled{
+    width: 6rem;
+    height: 3rem;
+    background-color: #fb923c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.signup{
+    width: 6rem;
+    height: 3rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+.signupscrolled{
+    width: 6rem;
+    height: 3rem;
+    background-color: #60a5fa;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+.middlenav{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.middlenavli{
+    font-size: 1.2rem;
+}
+.middlenavli:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
