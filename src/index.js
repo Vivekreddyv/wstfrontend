@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import Body from './main';
 import Navland from './navland';
+import Login from './components/login'
+import Signup from './components/signup'
 
 const Main=()=>{
   return(
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
     path: "/",
     element: <Main />,
   },
+  {
+   path:"/login",
+   element: <Login/>
+  },
+  {
+    path:"/signup",
+    element: <Signup/>
+   }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

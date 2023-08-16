@@ -11,7 +11,7 @@ const Review=()=>{
             <div className="review2">
                 <div className="review3">
                     <div>
-                        <p style={{fontFamily:'poppins',fontSize:'1.35rem',fontWeight:'500'}}>"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. "</p>
+                        <p style={{fontFamily:'poppins',fontSize:'1.35rem',fontWeight:'500'}}>"We sourced aircraft components from this platform and had an outstanding experience! The procurement process was seamless, and the component prices were highly competitive. "</p>
                     </div>
                     <div  className="review4">
                         <div className='review5'>
@@ -26,7 +26,7 @@ const Review=()=>{
                 </div>
                 <div  className="review3">
                     <div>
-                        <p style={{fontFamily:'poppins',fontSize:'1.35rem',fontWeight:'500'}}>"The car was in great condition and made our trip even better. Highly recommend for this car rental website!"</p>
+                        <p style={{fontFamily:'poppins',fontSize:'1.35rem',fontWeight:'500'}}>"The aircraft component was in excellent condition and significantly enhanced our project. Highly recommend this aircraft components platform!"</p>
                     </div>
                     <div  className="review4">
                         <div className='review5'>

@@ -16,8 +16,8 @@ const Whyus=()=>{
                         <img src={why1} alt=""></img>
                     </div>
                     <div>
-                        <h2 style={{fontFamily:'poppins',margin:'0 0 0 0'}}>Cross Country Drive</h2>
-                        <p style={{fontFamily:'rubik',color:'#706f7b',margin:'5px 0 0 0',lineHeight:'1.4'}}>Take your driving experience to the next level with our top-notch vehicles for your cross-country adventures.</p>
+                        <h2 style={{fontFamily:'poppins',margin:'0 0 0 0'}}>Cross Country Deals</h2>
+                        <p style={{fontFamily:'rubik',color:'#706f7b',margin:'5px 0 0 0',lineHeight:'1.4'}}>explore our exclusive deals for cross-country journeys, ensuring you have a seamless and memorable experience as you traverse vast landscapes. Enjoy cost-effective rates, reliable vehicles, and exceptional support for your extended adventure.</p>
                     </div>
                 </div>
                 <div className='why3'>

@@ -6,15 +6,14 @@ const Quickeasy=()=>{
         <div>
             <div>
                 <div className="quick1">
-                <h3 style={{margin:"150px 0 0 0",fontSize:"1.4rem",fontFamily:'rubik',color:'#010103',fontWeight:'600'}}>Plan your trip now</h3>
-                <h1 style={{margin:'15px 0 80px 0',fontSize:"2.7rem",fontFamily:'poppins'}}>Quick & easy car rental</h1>
+                <h1 style={{margin:'15px 0 80px 0',fontSize:"2.7rem",fontFamily:'poppins',marginTop:'5rem'}}>Rapid Aircraft Parts Acquisition</h1>
                 </div>
             </div>
             <div className="quick2">
                 <div className='quick3'>
                     <img style={{width:'55%'}} src={qe1} alt=""></img>
-                    <h2 style={{fontFamily:'poppins',margin:'10px 0 0 0'}}>Select Car</h2>
-                    <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center',width:'90%',lineHeight:'1.5'}}>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</p>
+                    <h2 style={{fontFamily:'poppins',margin:'10px 0 0 0'}}>Search Component</h2>
+                    <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center',width:'90%',lineHeight:'1.5'}}>We provide a wide variety of aircraft components to fulfill your aviation requirements. Our inventory ensures the perfect fit for your needs.</p>
                 </div>
                 <div className='quick3'>
                     <img style={{width:'55%'}} src={qe2} alt=""></img>
@@ -23,8 +22,9 @@ const Quickeasy=()=>{
                 </div>
                 <div className='quick3'>
                     <img style={{width:'55%'}} src={qe3} alt=""></img>
-                    <h2 style={{fontFamily:'poppins',margin:'10px 0 0 0'}}>Let's Drive</h2>
-                    <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center',width:'90%',lineHeight:'1.5'}}>Whether you're hitting the open road, we've got you covered with our wide range of cars</p>
+                    <h2 style={{fontFamily:'poppins',margin:'10px 0 0 0'}}>Buy/Sell</h2>
+                    <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center',width:'90%',lineHeight:'1.5'}}>Seamlessly buy and sell aircraft components with ease.
+Your one-stop platform for effortless aviation parts transactions.</p>
                 </div>
             </div>
         </div>

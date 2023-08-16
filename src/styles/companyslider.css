@@ -10,6 +10,8 @@
 }
 .slider1{
     display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+    padding-bottom: 1rem;
 }
 .sliderbtn{
     width: 14rem;
