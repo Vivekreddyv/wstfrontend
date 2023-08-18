@@ -2,7 +2,7 @@ const Footer=()=>{
     return(
         <div className="footer">
             <div style={{width:'40%'}} className="footer1">
-                <h2 style={{fontFamily:'poppins'}}>CAR <span>Rental</span></h2>
+                <h2 style={{fontFamily:'poppins'}}>Aircraft <span>Components</span></h2>
                 <p  style={{fontFamily:'poppins',color:'#706f7b',marginBottom:'40px'}}>Explore our extensive selection of aircraft components to fulfill your aviation requirements. Discover the ideal parts to match your needs.</p>
                 <button className="footerbtn"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;+91-9876543210</button>
                 <button className="footerbtn"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;WingSpanTrade@gmail.com</button>

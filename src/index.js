@@ -7,6 +7,7 @@ import Body from './main';
 import Navland from './navland';
 import Login from './components/login'
 import Signup from './components/signup'
+import Sellers from './components/sellers'
 
 const Main=()=>{
   return(
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path:"/signup",
     element: <Signup/>
+   },
+   {
+    path:"/sellers",
+    element:<Sellers/>
    }
 ]);
 

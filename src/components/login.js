@@ -34,14 +34,14 @@ const Login=()=>{
         <div>
         <div className="navscrolled">
                 <div>
-                    <Link to='/'><h1 className="logoscrolled">WST</h1></Link>
+                    <Link to='/'><h1 style={{marginLeft:'2rem'}} className="logoscrolled">WST</h1></Link>
                 </div>
-                <div>
+                {/* <div>
                     <ul className="middlenav">
                         <li className="middlenavliscrolled1">Buyers</li>
                         <li className="middlenavliscrolled2">Sellers</li>
                     </ul>
-                </div>
+                </div> */}
             <div>
                 <Link to='/login'><button className="loginnavscrolled">Log in</button></Link>
                 <Link to='/signup'><button className="signupnavscrolled">Sign up</button></Link>

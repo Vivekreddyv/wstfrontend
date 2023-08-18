@@ -16,6 +16,7 @@
 .sliderbtn{
     width: 14rem;
     background-color: white;
+    color: rgba(0, 0, 0, 0.584);
     border: none;
     cursor: pointer;  
     font-size: 2.5rem;  

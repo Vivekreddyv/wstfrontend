@@ -1,5 +1,3 @@
-import tonystark from './utils/tonystark.jpg'
-import justinbieber from './utils/justinbieber.jpg'
 const Review=()=>{
     return(
         <div style={{backgroundColor:'#f8f8f8',marginTop:'50px'}}>
@@ -15,7 +13,6 @@ const Review=()=>{
                     </div>
                     <div  className="review4">
                         <div className='review5'>
-                        <img style={{borderRadius:'50%',width:'4.5rem',height:'4.5rem'}} src={tonystark} alt=""></img>
                         <div className='review6'>
                             <h3 style={{fontFamily:'poppins',margin:'0 0 0 0'}}>Tony Stark</h3>
                             <p style={{fontFamily:'rubik',margin:'0 0 0 0'}}>Bengaluru</p>
@@ -30,7 +27,6 @@ const Review=()=>{
                     </div>
                     <div  className="review4">
                         <div className='review5'>
-                        <img style={{borderRadius:'50%',width:'4.5rem',height:'4.5rem'}} src={justinbieber} alt=""></img>
                         <div className='review6'>
                             <h3 style={{fontFamily:'poppins',margin:'0 0 0 0'}}>Justin Bieber</h3>
                             <p style={{fontFamily:'rubik',margin:'0 0 0 0'}}>Mumbai</p>

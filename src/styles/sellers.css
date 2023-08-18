@@ -1,0 +1,72 @@
+.sellers{
+    display: flex;
+    justify-content: center;
+}
+.sellers1{
+    width: 55vw;
+}
+.sellers2{
+    padding-left: 1.8rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.203);
+    border-top: 1px solid rgba(0, 0, 0, 0.203);
+    border-right: 1px solid rgba(0, 0, 0, 0.203);
+    border-radius: 3px;
+}
+.sellers3{
+    padding-left: 1.8rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.203);
+    border-top: 1px solid rgba(0, 0, 0, 0.203);
+    border-right: 1px solid rgba(0, 0, 0, 0.203);
+}
+.sellers4{
+    border-left: 1px solid rgba(0, 0, 0, 0.203);
+    border-top: 1px solid rgba(0, 0, 0, 0.203);
+    border-right: 1px solid rgba(0, 0, 0, 0.203);
+    padding-left: 1.8rem;
+}
+.sellers5{
+    border-left: 1px solid rgba(0, 0, 0, 0.203);
+    border-top: 1px solid rgba(0, 0, 0, 0.203);
+    border-right: 1px solid rgba(0, 0, 0, 0.203);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.203);
+    padding-left: 1.8rem;
+    height: 15vh;
+    margin-bottom: 2rem;
+}
+.inputseller{
+    height: 2.5rem;
+    width: 26rem;
+    margin-top: 0.2rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    padding-left: 0.7rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.619);
+}
+.inputseller1{
+    height: 5rem;
+    width: 26rem;
+    margin-top: 0.2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 0.7rem;
+    border: 1px solid rgba(0, 0, 0, 0.619);
+    margin-bottom: 2rem;
+}
+.postnow{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2rem;
+    background-color: #002f34;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.postnow:hover{
+    background-color:#04525b ;
+    transition: all 0.1s;
+}
