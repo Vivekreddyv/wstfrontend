@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import '../styles/nav.css'
 import { useEffect } from 'react'
+import Cart from './cart'
 
 const Nav = () => {
     const navigate=useNavigate()
@@ -56,6 +57,7 @@ const Nav = () => {
             {localStorage.getItem("authtoken")?<div>
                 <button style={{display:'none'}} className="loginnav">Log in</button>
                 <button onClick={handlelogout} className="signupnav">Logout</button>
+                <Cart/>
             </div>:<div>
                 <Link to='/login'><button className="loginnav">Log in</button></Link>
                 <Link to='/signup'><button className="signupnav">Sign up</button></Link>

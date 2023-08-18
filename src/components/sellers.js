@@ -1,6 +1,7 @@
 import { Link, useNavigate } from "react-router-dom"
 import '../styles/sellers.css'
 import { useState } from "react"
+import Footer from '../footer'
 const Sellers = () => {
     const [credentials,setCredentials]=useState({title:"",description:"",price:"",imageurl:"",city:"",name:""})
     const{title,description,price,imageurl,city,name}=credentials
@@ -71,6 +72,7 @@ const Sellers = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

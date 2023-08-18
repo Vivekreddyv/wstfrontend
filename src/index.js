@@ -8,6 +8,9 @@ import Navland from './navland';
 import Login from './components/login'
 import Signup from './components/signup'
 import Sellers from './components/sellers'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Products from './pages/products.js'
+import Productdesc from './pages/productsdetails';
 
 const Main=()=>{
   return(
@@ -33,6 +36,14 @@ const router = createBrowserRouter([
    {
     path:"/sellers",
     element:<Sellers/>
+   },
+   {
+    path:"/buyers",
+    element:<Products/>
+   },
+   {
+    path:"/productdetails/:id",
+    element:<Productdesc/>
    }
 ]);
 

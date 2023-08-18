@@ -18,7 +18,7 @@ const Footer=()=>{
             <div  className="footer1">
                 <h2 style={{fontFamily:'poppins'}}>WORKING HOURS</h2>
                 <p style={{fontFamily:'poppins'}}>Mon - Fri: 9:00AM - 9:00PM</p>
-                <p style={{fontFamily:'poppins'}}>Sat: 9:00AM - 19:00PM</p>
+                <p style={{fontFamily:'poppins'}}>Sat: 9:00AM - 7:00PM</p>
                 <p style={{fontFamily:'poppins'}}>Sun: Closed</p>
             </div>
             <div  className="footer1">
