@@ -15,7 +15,7 @@ const Sellers = () => {
     }
     const handlepostnow=async(e)=>{
         e.preventDefault()
-        const response=await fetch('http://localhost:5000/api/sellers',{
+        const response=await fetch('https://wingspantrade.onrender.com/api/sellers',{
         method:'POST',
         headers:{
             'Content-Type':'application/json'
