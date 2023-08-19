@@ -19,7 +19,7 @@ a:visited {
 }
 a:hover { 
     text-decoration: none;
-    color: #ff4d30;
+    color: black;
     transition: all 0.3s;
 }
 a:active { text-decoration: none; } 
@@ -130,7 +130,7 @@ a:active { text-decoration: none; }
 .review2{
     display: flex;
     padding: 6.5%;
-    height: 342px;
+    height: 500px;
     margin-right: 2%;
 }
 .review3{
@@ -183,6 +183,7 @@ a:active { text-decoration: none; }
     transition: 0.01s;
     font-family: 'poppins';
     font-size: 1.1rem;
+    height: 4rem;
 }
 .accordionqactive{
     display: flex;
@@ -196,6 +197,7 @@ a:active { text-decoration: none; }
     transition-delay: 0.01s;
     font-family: 'poppins';
     font-size: 1.1rem;
+    height: 4rem;
 }
 .accordiona{
     max-height: 0;

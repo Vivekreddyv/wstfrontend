@@ -48,21 +48,22 @@ useEffect(() => {
   }
 }, []);
 const handlecheckout=async(e)=>{
-  e.preventDefault()
-  const response=await fetch('https://stylesync-28wp.onrender.com/api/orderdata',{
-    method:"POST",
-    headers:{
-      "Content-Type":"application/json"
-    },
-    body:JSON.stringify({email:localStorage.getItem("useremail"),orderdata:cart})
-  })
-  const json=await response.json()
-  if(!json.success){
-    alert('something went wrong')
-  }
-  if(json.success){
-    setCart([])
-  }
+  // e.preventDefault()
+  // const response=await fetch('https://stylesync-28wp.onrender.com/api/orderdata',{
+  //   method:"POST",
+  //   headers:{
+  //     "Content-Type":"application/json"
+  //   },
+  //   body:JSON.stringify({email:localStorage.getItem("useremail"),orderdata:cart})
+  // })
+  // const json=await response.json()
+  // if(!json.success){
+  //   alert('something went wrong')
+  // }
+  // if(json.success){
+  //   setCart([])
+  // }
+  setCart([])
 }
   return (
     <>
@@ -82,10 +83,10 @@ const handlecheckout=async(e)=>{
         <div className="cart">
             {cart.map((data)=>(
                 <div key={data.id} style={{border:'1px solid black',borderRadius:'1%',display:'flex',marginBottom:'1rem',marginLeft:'0.1rem'}}>
-                    <img className="cartimg" src={data.img} alt=""></img>
+                    <img className="cartimg" src={data.imageurl} alt=""></img>
                     <div style={{width:'100%',backgroundColor:'#f2f2f2',display:'flex',justifyContent:'space-between',padding:'0.8rem 1.3rem 0 1.3rem'}}>
                         <div style={{display:'flex',flexDirection:'column',justifyContent:'space-around'}}>
-                        <p style={{fontFamily:'blinker',fontSize:'1.4rem',width:'10rem',fontWeight:'600'}}>{data.description}</p>
+                        <p style={{fontFamily:'blinker',fontSize:'1.4rem',width:'10rem',fontWeight:'600'}}>{data.title}</p>
                         <div style={{display:'flex'}}>
                              <button onClick={()=>handledecrement(data.id)} style={{width:'1.8rem',height:'1.8rem',backgroundColor:'black',color:'white',fontSize:'1rem'}}>-</button>
                              <p style={{width:'1.8rem',height:'1.8rem',border:'2px solid black',fontSize:'1rem',textAlign:'center'}}>{data.quantity}</p>
@@ -94,7 +95,7 @@ const handlecheckout=async(e)=>{
                         
                     </div>
                     <div>
-                        <p style={{fontSize:'1.3rem',fontWeight:'700'}}><span style={{fontSize:'1.1rem'}}><i class="fa-solid fa-indian-rupee-sign"></i></span>&nbsp;{handleprice(data.id).toLocaleString('EN-IN')}</p>
+                        <p style={{fontSize:'1rem',fontWeight:'700'}}><span style={{fontSize:'1.1rem'}}><i class="fa-solid fa-indian-rupee-sign"></i></span>&nbsp;{handleprice(data.id).toLocaleString('EN-IN')}</p>
                         <button onClick={()=>deleteproduct(data.id)} style={{border:'none',backgroundColor:'#e5e5e5',margin:'2rem 0 0 3rem',fontSize:'1.5rem'}}><i class="fa-solid fa-trash"></i></button>
                     </div>
                     </div>

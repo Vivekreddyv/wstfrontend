@@ -76,7 +76,7 @@ const ProductCards=(category)=>{
                 <Link to='/'><h4 className="homeproducts"><i class="fa-solid fa-angle-left"></i>Home</h4></Link>
                 <h2 className="productshead">{filtername}</h2>
             </div>
-            <div className="products4">
+            {/* <div className="products4">
                 <button className="filterbtn" onClick={()=>filterproduct("all")}>All</button>
                 <button className="filterbtn" onClick={()=>filterproduct("furniture")}>Furnitures</button>
                 <button className="filterbtn" onClick={()=>filterproduct("electronic")}>Electronics</button>
@@ -84,7 +84,7 @@ const ProductCards=(category)=>{
                 <button className="filterbtn" onClick={()=>filterproduct("kitchen")}>Kitchen</button>
                 <button className="filterbtn" onClick={()=>filterproduct("chair")}>Chairs</button>
                 <button className="filterbtn" onClick={()=>filterproduct("skin-care")}>Skin Care</button>
-            </div>
+            </div> */}
         <div className="products5">
             {productdata.map((data)=>(
                 <Productcard key={data.id} size={size} props={data}/>

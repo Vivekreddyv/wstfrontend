@@ -26,7 +26,7 @@ const Sellers = () => {
     if(!json.success){
         alert('enter valid details')
     }else{
-        navigate('/buyers')
+        navigate('/')
     }
     }
     return (

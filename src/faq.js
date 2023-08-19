@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const Faq=()=>{
-    const [active,setActive]=useState("")
+    const [active,setActive]=useState("q1")
     const activeq=(id)=>{
         setActive(active===id?"":id)
     }

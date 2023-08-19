@@ -54,7 +54,7 @@ const Nav = () => {
                     <Link to='/login'><li className="middlenavli2">Sellers</li></Link>
                 </ul>
             </div>}
-            {localStorage.getItem("authtoken")?<div>
+            {localStorage.getItem("authtoken")?<div style={{marginRight:'2rem'}}>
                 <button style={{display:'none'}} className="loginnav">Log in</button>
                 <button onClick={handlelogout} className="signupnav">Logout</button>
                 <Cart/>
