@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Productcard from "../components/productcard"
-import { Link, useParams,useNavigate } from "react-router-dom"
+import { Link,useNavigate } from "react-router-dom"
 import Nav from "../components/nav.js"
 import Footer from '../footer.js'
 import '../styles/products.css'
@@ -31,28 +31,25 @@ const ProductCards=(category)=>{
         console.log(data)
         setProductdata(data[0])
     }
-    const {id}=useParams()
+    // const {id}=useParams()
    
     const [size,setSize] = useState('')
-    const [filtername,setFiltername]=useState("ALL")
-    const filterproduct=(category)=>{
-        if(category==="all"){
-            // setProductdata(items)
-            setFiltername("ALL")
-        }else{
-        const filtereddata=productdata.filter((data)=>data.category===category)
-        setProductdata(filtereddata)
-        const filteredname=category
-        setFiltername(filteredname)
-        }
-    }
+    // const [filtername,setFiltername]=useState("ALL")
+    // const filterproduct=(category)=>{
+    //     if(category==="all"){
+    //         // setProductdata(items)
+    //         setFiltername("ALL")
+    //     }else{
+    //     const filtereddata=productdata.filter((data)=>data.category===category)
+    //     setProductdata(filtereddata)
+    //     const filteredname=category
+    //     setFiltername(filteredname)
+    //     }
+    // }
     const sizefunc=()=>{
         const siz=window.innerWidth >=720?'17rem':'91vw';
         setSize(siz)
       }
-    useEffect(()=>{
-        filterproduct(id);
-    },[id])
   
     return(
         <div className="products1">
@@ -74,7 +71,7 @@ const ProductCards=(category)=>{
         <div className="products2">
             <div className="products3">
                 <Link to='/'><h4 className="homeproducts"><i class="fa-solid fa-angle-left"></i>Home</h4></Link>
-                <h2 className="productshead">{filtername}</h2>
+                {/* <h2 className="productshead">{filtername}</h2> */}
             </div>
             {/* <div className="products4">
                 <button className="filterbtn" onClick={()=>filterproduct("all")}>All</button>
